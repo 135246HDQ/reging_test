@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/user/sendemail" method="post">
+    发件人:<input type="text" name="sender"><br/>
+    收件人:<input type="text" name="address"><br/>
+    标题:<input type="text" name="top"><br/>
+    内容:<input type="text" name="title"><br/>
+    发送时间:<input type="date" name="fordate"><br/>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
